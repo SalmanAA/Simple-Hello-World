@@ -6,7 +6,9 @@ namespace SimpleHelloWorld
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello, World!");
+            Console.Write("What is your name?");
+            var username = Console.ReadLine();
+            Console.WriteLine("Hello, {0}",username);
             Console.ReadKey();
         }
     }
